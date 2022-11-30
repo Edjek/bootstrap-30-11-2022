@@ -1,0 +1,23 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+.wrapper {
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.color-red {
+    color: red;
+}
