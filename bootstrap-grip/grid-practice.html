@@ -14,39 +14,40 @@
         />
     </head>
     <body>
-        <div>
-            <h1 class="text-center">Le sytème de grid de Bootstrap</h1>
+        <div class="container my-5">
+            <h1 class="text-center my-5">Le sytème de grid de Bootstrap</h1>
 
             <div class="container">
-                <div class="row">
+                <div class="row mb-3">
                     <div class="col text-bg-primary">item 1</div>
                     <div class="col text-bg-success">item 2</div>
                     <div class="col text-bg-warning">item 3</div>
                 </div>
-                <div class="row">
-                    <div class="col-8 col-md-3 col-lg-6 text-bg-primary">hello</div>
-                    <div class="col-4">world</div>
+                <div class="row mb-3">
+                    <div class="col-8 col-md-3 col-lg-6 border">item 1</div>
+                    <div class="col-4 border">item 2</div>
                 </div>
 
-                <div class="row">
-                    <div class="col-lg-6">item 1</div>
-                    <div class="col-lg-6">item 2</div>
+                <div class="row mb-3">
+                    <div class="col-lg-6 border text-bg-primary">item 1</div>
+                    <div class="col-lg-6 border text-bg-success">item 2</div>
                 </div>
-                <div class="row">
-                    <div class="col-4">item 1</div>
-                    <div class="col-4 offset-1">item 2</div>
+                <div class="row mb-3">
+                    <div class="col-4 border">item 1</div>
+                    <div class="col-4 offset-1 border">item 2</div>
                 </div>
             </div>
 
+            <h2 class="text-center">Practice</h2>
             <!-- un container -->
-            <div class="container my-5 border p-3">
+            <div class="container my-5 p-3">
                 <!-- 
                     une ligne qui contient 2 div qui prennent 
                     chacune la moitié de l'espace disponible 
                 -->
                 <div class="row mb-3">
-                    <div class="col-6">item 1</div>
-                    <div class="col-6">item 2</div>
+                    <div class="col-6 border">item 1</div>
+                    <div class="col-6 border">item 2</div>
                 </div>
 
                 <!-- 
@@ -54,28 +55,28 @@
                     et les 2 suivantes prennent 4 colonnes 
                 -->
                 <div class="row mb-3">
-                    <div class="col-2">item 1</div>
-                    <div class="col-2">item 2</div>
-                    <div class="col-4">item 3</div>
-                    <div class="col-4">item 4</div>
+                    <div class="col-2 border text-bg-primary">item 1</div>
+                    <div class="col-2 border text-bg-success">item 2</div>
+                    <div class="col-4 border text-bg-warning">item 3</div>
+                    <div class="col-4 border text-bg-danger">item 4</div>
                 </div>
 
                 <!-- 
                     une ligne avec 2 div qui prennent 4 col 
                     mais aussi espacées de 4 colonnes 
                 -->
-                <div class="row">
-                    <div class="col-4">item 1</div>
-                    <div class="col-4 offset-4">item 2</div>
+                <div class="row mb-3">
+                    <div class="col-4 border">item 1</div>
+                    <div class="col-4 offset-4 border">item 2</div>
                 </div>
 
                 <!-- 
                     une ligne avec 2 div qui prennent toute la largeur,
                     mais au dessus de la taille middle elle se repartissent l'espace disponible 
                 -->
-                <div class="row">
-                    <div class="col-md">item 1</div>
-                    <div class="col-md">item 2</div>
+                <div class="row mb-3">
+                    <div class="col-md border text-bg-primary">item 1</div>
+                    <div class="col-md border text-bg-warning">item 2</div>
                 </div>
 
                 <!-- 
@@ -83,11 +84,11 @@
                     la premiere div au dessus de middle elle prend toute la largeur,
                     les divs 2 et 3 elles 5 colonnes et elles ont un espace entre elle de 2 arrivé à large
                 -->
-                <div class="row">
-                    <div class="col col-md-12 text-bg-primary">item 1</div>
-                    <div class="col col-lg-5">item 2</div>
-                    <div class="col col-lg-5 offset-lg-2">item 3</div>
-                    <div class="col">item 4</div>
+                <div class="row mb-3">
+                    <div class="col col-md-12 border">item 1</div>
+                    <div class="col col-lg-5 border">item 2</div>
+                    <div class="col col-lg-5 offset-lg-2 border">item 3</div>
+                    <div class="col border">item 4</div>
                 </div>
 
                 <!-- 
@@ -95,9 +96,9 @@
                     arrivé à middle elle prennent la moitié 
                     et arrivé à large elle prennent chacune 4 col et il y a 4 colonnes d'espace entre elles 
                 -->
-                <div class="row">
-                    <div class="col-md col-lg-4 text-bg-primary">item 1</div>
-                    <div class="col-md col-lg-4 offset-lg-4 text-bg-danger">item 2</div>
+                <div class="row mb-3">
+                    <div class="col-md col-lg-4 border text-bg-primary">item 1</div>
+                    <div class="col-md col-lg-4 offset-lg-4 border text-bg-success">item 2</div>
                 </div>
             </div>
         </div>
