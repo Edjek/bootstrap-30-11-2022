@@ -18,15 +18,21 @@
 
         <!-- Pour utiliser le systeme de Grid de bootstrap, on entoure nos éléments de la class .container -->
         <div class="container my-5 p-5 border rounded">
-            <h1 class="text-center mb-5">Pour utiliser Boostrap nous utilisons un lien CDN pour le CSS et le javascript</h1>
+            <!-- <h1 class="text-center mb-5">Pour utiliser Boostrap nous utilisons un lien CDN pour le CSS et le javascript</h1> -->
             <!-- On ajoute la class .row, elle porte la propriete flexbox et permet donc à nos element de se mettre sur la même ligne -->
             <div class="row g-2">
                 <!-- La class .col permet à nos elements de se mettre en ligne -->
                 <!-- on peut mettre des breakpoints .col-md pour signifier quand modifier la Grid -->
                 <!-- Si le nombre de colonne depasse 12, la div va à la ligne -->
-                <div class="col-sm-4 col-xxl-12 border">premiere colonne</div>
-                <div class="col-md-4 border">seconde colonne</div>
-                <div class="col-md-4 border">troisieme colonne</div>
+                <div class="col col-md-6 col-xxl-12">
+                    <div class="border">premiere colonne</div>
+                </div>
+                <div class="col col-md-6">
+                    <div class="border">seconde colonne</div>
+                </div>
+                <div class="col col-md-8">
+                    <div class="border">troisieme colonne</div>
+                </div>
             </div>
         </div>
 
