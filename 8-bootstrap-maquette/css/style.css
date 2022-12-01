@@ -1,0 +1,64 @@
+.nav-bg {
+    background-color: #0a2b19;
+}
+
+.hero {
+    height: 600px;
+}
+
+.img-caroussel {
+    object-fit: cover;
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .card img {
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+} */
